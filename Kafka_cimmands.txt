@@ -1,0 +1,5 @@
+# Start Zookeeper (in one terminal)
+zookeeper-server-start.sh config/zookeeper.properties
+
+# Start Kafka (in another terminal)
+kafka-server-start.sh config/server.properties

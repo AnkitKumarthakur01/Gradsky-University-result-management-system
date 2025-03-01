@@ -1,0 +1,11 @@
+# Start the producer
+python kafka_streaming/producer.py
+
+# Start the consumer (HoD receiving stats)
+python kafka_streaming/consumer.py
+
+# Start the student feedback producer
+python kafka_streaming/student_feedback_producer.py
+
+# Start the student feedback consumer
+python kafka_streaming/student_feedback_consumer.py 

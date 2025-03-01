@@ -1,0 +1,2 @@
+kafka-topics.sh --create --topic student_results --bootstrap-server localhost:9092
+kafka-topics.sh --create --topic student_feedback --bootstrap-server localhost:9092
